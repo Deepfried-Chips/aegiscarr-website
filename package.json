@@ -6,11 +6,11 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"check": "svelte-kit sync && svelte-check --tsconfig jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig jsconfig.json --watch",
 		"test": "playwright test",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"lint": "prettier --check site-rewrite && eslint .",
+		"format": "prettier --write site-rewrite"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
