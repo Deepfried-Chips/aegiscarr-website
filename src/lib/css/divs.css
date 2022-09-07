@@ -1,0 +1,13 @@
+div#homepage-img {
+    text-align: center;
+    /* margin-top: 5rem */
+}
+
+div#homepage {
+    display:table
+}
+
+div#homepage-content {
+    display: table-cell;
+    vertical-align: middle
+}
